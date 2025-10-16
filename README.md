@@ -97,10 +97,10 @@ Together, these methods provide a multi-dimensional view of user behavior—link
 ---
 ### 3.4 Funnel Analysis: Understanting User Progression and value Creation
 To assess how users interact with LinkNYC over time, we developed a four-stage engagement funnel reflecting the journey from casual to high-value usage. The stages were defined as: </br>
-**Step 1: Total Sessions** – all recorded user sessions, representing initial access to the network. </br>
-**Step 2: Session Quality** - First, we defined quality sessions as those with an average session length of more than 5 minutes. We chose this threshold to filter out users who may have interacted with the kiosk out of curiosity rather than for meaningful use. </br>
-**Step 3: Engagement** - Next, we considered a session engaged if the user downloaded more than the median amount of terabytes (TB). This helped us identify users who were more actively using the kiosk’s capabilities. </br>
-**Step 4: Identifying High-Value Users** - Finally, we defined high-value users as those who met the engagement criteria and were in the top 25% (i.e., above the 75th percentile) of our data in terms of usage. </br>
+1. **Total Sessions** – all recorded user sessions, representing initial access to the network. </br>
+2. **Session Quality** - First, we defined quality sessions as those with an average session length of more than 5 minutes. We chose this threshold to filter out users who may have interacted with the kiosk out of curiosity rather than for meaningful use. </br>
+3. **Engagement** - Next, we considered a session engaged if the user downloaded more than the median amount of terabytes (TB). This helped us identify users who were more actively using the kiosk’s capabilities. </br>
+4. **Identifying High-Value Users** - Finally, we defined high-value users as those who met the engagement criteria and were in the top 25% (i.e., above the 75th percentile) of our data in terms of usage. </br>
 
 *Conversion table*
 <img width="1174" height="270" alt="Screenshot 2025-10-15 at 4 54 30 PM" src="https://github.com/user-attachments/assets/c58b8d9f-b1cf-4b53-a5af-3cbec9625531" />
