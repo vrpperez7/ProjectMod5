@@ -66,7 +66,6 @@ Together, these methods provide a multi-dimensional view of user behavior—link
 * **Objective:** Identify growth trends and volatility over time (YoY comparisons).
 * **Justification:** Utility-like behavior should show consistent or growing engagement; convenience behavior would show decline or irregularity.
 * **Result Summary:**
-* 
 <img width="1209" height="170" alt="Screenshot 2025-10-15 at 4 30 11 PM" src="https://github.com/user-attachments/assets/9f400d79-0de2-4d10-9731-937318de4d5a" />
 
 
@@ -81,7 +80,6 @@ Together, these methods provide a multi-dimensional view of user behavior—link
 <img width="768" height="171" alt="Screenshot 2025-10-15 at 4 34 40 PM" src="https://github.com/user-attachments/assets/6444bb4b-9bcf-4bc3-9723-f431d9364922" />
 
  * *“Summer and Fall cohorts exhibit a more sustained session averages while we have high fluctuations accross years for Spring and Winter Cohorts*
- * 
 * **Justification:** Season-based segmentation helps separate behavioral cycles from infrastructure effects.
 
 ---
