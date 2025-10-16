@@ -1,6 +1,6 @@
 # LinkNYC Usage Analysis
 
-<img width="792" height="528" alt="image" src="https://github.com/user-attachments/assets/47254840-e09c-455e-ab0a-f4c913ddbbb2" />
+<img width="592" height="328" alt="image" src="https://github.com/user-attachments/assets/47254840-e09c-455e-ab0a-f4c913ddbbb2" />
 
 *Academic project analyzing LinkNYC data using Python and Tableau. Applies business analytics methods such as funnel analysis, cohort analysis, and RFM segmentation to generate actionable insights for stakeholders.*
 
