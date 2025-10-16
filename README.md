@@ -1,6 +1,6 @@
 # LinkNYC Usage Analysis
 
-*Academic project analyzing a LinkNYC data using Python and Tableau. Applies Business analytics including Funnel, cohort, RFM segmentation to explore real-world business scenarios, uncover patterns, and generate actionable insights to support decisions for stakeholders*
+*Academic project analyzing LinkNYC data using Python and Tableau. Applies business analytics methods such as funnel analysis, cohort analysis, and RFM segmentation to generate actionable insights for stakeholders.*
 
 
 
@@ -9,9 +9,9 @@
 ## **Business Question:**
 LinkNYC was created to offer free public Wi-Fi and digital access across New York City, aiming to reduce the digital divide. After several years of operation, the key question is:
 
-Is LinkNYC a functional utility—part of the city’s essential digital infrastructure—or a fleeting convenience used only occasionally?
+# Is LinkNYC a functional utility—part of the city’s essential digital infrastructure—or a fleeting convenience used only occasionally?
 
-This distinction matters for future funding and policy decisions. To explore it, we analyzed weekly usage data (2020–2025) using activation, conversion, retention, cohort, and segmentation analyses to determine whether LinkNYC is used as a daily necessity or an occasional convenience.
+This distinction matters for future funding and policy decisions. To explore it, we analyzed weekly usage data (2020–2025) using activation, conversion, retention, cohorts, and segmentation analyses to determine whether LinkNYC is used as a daily necessity or an occasional convenience.
 
 ---
 
@@ -19,11 +19,11 @@ This distinction matters for future funding and policy decisions. To explore it,
 
 * **Objective:** Assess whether LinkNYC serves as a long-term public utility (consistent, essential use) or a short-term convenience (occasional, opportunistic use).
 * **Key Insight (teaser):** Our funnel analysis shows that 23.5% of total sessions reach the “High Value” stage, highlighting meaningful long-term engagement. Segmentation results reinforce this, with Engaged (64) and High Value (75) weeks representing the most consistent, high-impact usage, compared to Quality Sessions (122) and Convenient (39) weeks. Overall, these patterns suggest that LinkNYC functions more as a reliable public utility than a fleeting convenience.
-* **Methodology Overview**To evaluate whether LinkNYC functions as a utility or a convenience, we applied several complementary analytical approaches:
+* **Methodology Overview**: To evaluate whether LinkNYC functions as a utility or a convenience, we applied several complementary analytical approaches:
 
 1. **Session Analysis**: Measured sessions per user and total activity to gauge overall engagement intensity.
 2. **Activation & Conversion Metrics**: Defined activation as weeks above the median data usage, and conversion as weeks in the top 25% of usage, to track progression through the user engagement funnel.
-3. Funnel Analysis: Built a behavioral funnel with four stages—**Total Sessions** → **Quality Sessions** → **Engaged Sessions** → **High Value Sessions**—to measure progression toward high-value, consistent use.
+3. **Funnel Analysis:** Built a behavioral funnel with four stages—*Total Sessions* → *Quality Sessions* → *Engaged Sessions* → *High Value Sessions* — to measure progression toward high-value and consistent use.
 4. **Retention Tracking**: Analyzed user sessions across seasons and quarters to assess persistence and habitual use.
 5. **Quarterly Performance Analysis**: Compared year-over-year trends (2020–2025) to measure growth, stability, and shifts in usage patterns.
 6. **Cohort Analysis**: Grouped users by seasonal cohorts to identify behavioral differences and long-term retention trends.
@@ -98,7 +98,7 @@ Together, these methods provide a multi-dimensional view of user behavior—link
 ---
 ### 3.4 Funnel Analysis: Understanting User Progression and value Creation
 To assess how users interact with LinkNYC over time, we developed a four-stage engagement funnel reflecting the journey from casual to high-value usage. The stages were defined as:
-****Step 1**: Total Sessions** – all recorded user sessions, representing initial access to the network.
+****Step 1**: **Total Sessions** – all recorded user sessions, representing initial access to the network.
 ****Step 2:** Session Quality**
 First, we defined quality sessions as those with an average session length of more than 5 minutes. We chose this threshold to filter out users who may have interacted with the kiosk out of curiosity rather than for meaningful use.
 **Step 3: Engagement**
@@ -118,7 +118,7 @@ After completing the funnel analysis, we found that 23.5% of all sessions qualif
 ### 3.5 RFM Segmentation (Recency–Frequency–Monetary)
 **Criteria:**
 - **Usage** = TB Downloaded(TB)
-- **duration** = Average session lenght (minutes)
+- **Duration** = Average session length (minutes)
 * **Segmentation Logic:**
   | Segment            | Criteria                                | Interpretation     |
   | ------------------ | --------------------------------------- | ------------------ |
@@ -145,7 +145,7 @@ After completing the funnel analysis, we found that 23.5% of all sessions qualif
 ## 4. Interpretation & Insights
 ### 4.1 Evidence of Utility Behavior
 
-Strong and consistent engagement among Engaged, High Value, and Quality sessions.\
+There is strong and consistent engagement among Engaged, High Value, and Quality sessions.\
 Low recency for Engaged weeks indicates ongoing, active usage.\
 High frequency and substantial TB usage for High Value and Quality sessions show meaningful, habitual interaction.\
 Seasonal patterns (Fall and Spring cohorts) demonstrate stable usage over time.
@@ -160,7 +160,7 @@ Key Insight: Overall, the predominance of high-frequency, high-bandwidth segment
 
 ### User Behavior Assumptions:
 - User identity: Sessions per client are treated as unique users, which may overcount usage from shared or public devices.
-- First three months of data recorded a high session use: Observed a spike in sessions in the early period of data, previous to COVID
+- The first three months of data recorded high session usage: Observed a spike in sessions in the early period of data, previous to COVID
 - After COVID, sessions dropped and didn’t recover: Noted a permanent decline in usage post-pandemic, suggesting behavioral shifts or reduced reliance.
 
 ### Temporal Framework Assumptions:
@@ -180,7 +180,7 @@ Key Insight: Overall, the predominance of high-frequency, high-bandwidth segment
 ### Predictive Modeling:
 - Model predictive retention based on early usage patterns: Use initial engagement metrics to forecast long-term user retention or drop-off.
 
-### Stakeholder Communication
+### Visualization & Stakeholder Communication
 - Present visualization dashboards (e.g., quarterly trend maps for stakeholders): Build interactive visual tools to communicate trends, engagement, and geographic usage shifts over time.
 
 ---
